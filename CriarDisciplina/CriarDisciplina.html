@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Criar Disciplina</title>
+        <meta charset="UTF-8">
+        <link href="CriarDisciplina.css" rel="stylesheet">
+    </head>
+
+    <body>
+  
+        <div id = "header">
+            <img src="../imagens/logo.png" alt="Minerva" class= "m-image">
+            <div  id= "p">
+                <div id= "profile-box">
+                    <img src="../imagens/profile-user (1) 1.png" alt="profile" id= "profile">
+                    <p id = "profileName">Camila Maia</p>
+                </div>
+
+                <img src="../imagens/logout (1) 1.png" alt="leave" id= "leave">
+            </div>
+        </div>  
+
+        <div id = "main">      
+            <div><h1>Criar Disciplina</h1></div>
+    
+            <form action="/materias" method="POST">
+            <div class= "text"> 
+                <label for="nome" id="profileName">Nome:</label><br>
+                <input class = "input" type="text" id="nome" nome="nome"><br><br>
+            
+                <label for="periodo" id="profileName">Período:</label><br>
+                <input class = "input" type="text" id="periodo" nome="periodo"><br><br>
+    
+                <label for="codigodadisciplina" id="profileName">Código da matéria:</label><br>
+                <input class = "input" type="text" id="codigodadisciplina" nome="codigodadisciplina"><br><br>
+    
+                <label for="codigodamateria" id="profileName">Código da matéria:</label><br>
+                <input class = "input" type="text" id="codigodamateria" nome="codigodamateria"><br><br>
+            </div>
+
+                <input class = "button" type="submit" value="Cadastrar">
+            </form>
+        </div>
+
+
+    </body>
+</html>
